@@ -9,10 +9,10 @@
     display: flex;justify-content: center;align-items: center;
 }
 .mainimg{
-    width:100%;
+    width:100%;height: 400px;
 }
 .maininfo{
-    background-color: rgba(71,40,118,255);padding: 30px;color: white;height: 330px;
+    background-color: rgba(71,40,118,255);padding: 30px;color: white;height: 340px;
     display: flex;flex-direction: column;justify-content: space-evenly;
 }
 .cards{
@@ -101,6 +101,12 @@
     .maincard{
         width: 700px;
      }
+    .mainimg{
+        height: min-content;
+    }
+    .maininfo{
+        height: 200px;
+    }
     .card{
         margin: 0;margin-top:  20px;
     }
